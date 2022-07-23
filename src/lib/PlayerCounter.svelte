@@ -2,16 +2,20 @@
   
   export let playerName;
   
-  let playerPoint = 0;
+  export let playerPoint = 0;
   
-  const addPoint = () => {
+  function addPoint(){
     return playerPoint += 1;
   }
   
-  const decreasePoint = () => {
+  function decreasePoint(){
     if (playerPoint > 0) {
       return playerPoint -= 1;
     }
+  }
+
+  export function reset(){
+    playerPoint = 0;
   }
 </script>
 

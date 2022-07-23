@@ -1,42 +1,12 @@
 <script>
-  import PlayerCounter from './lib/PlayerCounter.svelte'
-  const pageTitle = 'Svelte Player Counter'
-  let player1Score = 0;
-  let player2Score = 0;
-
-  function resetScores(){
-    player1Score = 0;
-    player2Score = 0;
-  }
-
+  const pageTitle = 'To-Do App'
 </script>
 
 <section>
   <h1>{pageTitle}</h1>
-  <div class="wrapper">
-    <PlayerCounter 
-      bind:playerScore={player1Score}
-      playerName="Lennon"
-    ></PlayerCounter>
-    <PlayerCounter 
-      bind:playerScore={player2Score}
-      playerName="McCartney"
-    ></PlayerCounter>
-  </div>
-  <button class="secondary" on:click={resetScores}>Reset</button>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nulla officia optio quibusdam consequuntur facilis totam pariatur magnam quis at ratione, deserunt nam minus velit explicabo et. Voluptates, neque nostrum.</p>
 </section>
 
 <style>
-  section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .wrapper {
-    display: flex;
-  }
-  button {
-    border: 1px solid #efefef;
-  }
+
 </style>

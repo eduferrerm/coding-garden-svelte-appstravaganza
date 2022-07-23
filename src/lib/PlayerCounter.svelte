@@ -27,9 +27,9 @@
     padding: 25px;
   }
   .player-counter button:nth-of-type(1) {
-    background-color: rgb(240, 93, 93);
+    background-color: rgb(80, 80, 226);
   }
   .player-counter button:nth-of-type(2) {
-    background-color: rgb(80, 80, 226);
+    background-color: rgb(240, 93, 93);
   }
 </style>
